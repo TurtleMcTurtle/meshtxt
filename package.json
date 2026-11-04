@@ -13,7 +13,7 @@
   "dependencies": {
     "@meshtastic/js": "^2.3.7-5",
     "@tailwindcss/forms": "^0.5.9",
-    "@vitejs/plugin-vue": "^5.2.0",
+    "@vitejs/plugin-vue": "^5.2.4",
     "axios": "^1.7.7",
     "click-outside-vue3": "^4.0.1",
     "command-line-args": "^6.0.1",
@@ -24,7 +24,7 @@
     "rxdb": "^15.38.2",
     "rxjs": "^7.8.1",
     "uuid": "^11.0.3",
-    "vite": "^5.4.11",
+    "vite": "^8.3.5",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
