@@ -1,0 +1,8 @@
+review-log-version: 1
+repository: TurtleMcTurtle/meshtxt
+
+[2026-11-06T00:18:00Z] START run=dependency-20261106 mode=incremental branch=codex/vite-vue-plugin-compatibility reviewed-input=bebc46c33cfc17d4da0dbaac5b8b7199f5b372b4 baseline=none scope=Vite-plugin-dependency-compatibility
+[2026-11-06T00:18:00Z] FAIL id=DEP-VITE-VUE path=package.json evidence=npm-ci-ERESOLVE finding=Vite8.3.5-incompatible-with-plugin-vue5.2.4-peer-range
+[2026-11-06T00:18:00Z] FIX id=DEP-VITE-VUE action=upgrade-plugin-vue6.0.10-and-regenerate-lockfile
+[2026-11-06T00:18:00Z] PASS id=DEP-VITE-VUE check=npm-ci-and-npm-run-build result=clean-install-and-Vite8-production-build-pass
+[2026-11-06T00:18:00Z] COMPLETE run=dependency-20261106 coverage=package.json,package-lock.json result=pass reviewed-input=bebc46c33cfc17d4da0dbaac5b8b7199f5b372b4 unresolved=nonblocking-build-warnings scope-limit=not-a-whole-repository-audit
