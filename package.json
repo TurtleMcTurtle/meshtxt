@@ -14,7 +14,7 @@
     "@meshtastic/js": "^2.3.7-5",
     "@tailwindcss/forms": "^0.5.9",
     "@vitejs/plugin-vue": "^6.0.10",
-    "axios": "^1.7.7",
+    "axios": "^1.20.0",
     "click-outside-vue3": "^4.0.1",
     "command-line-args": "^6.0.1",
     "command-line-usage": "^7.0.3",
